@@ -1,0 +1,78 @@
+body {
+  font-family: monospace;
+  background-image: url("background.jpg");
+  background-size: cover;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: monospace;
+  color: white;
+  text-decoration: underline orange;
+  text-shadow: 1px 1px black;
+}
+
+h1 {
+  color: white;
+  text-decoration: underline orange;
+  text-shadow: 1px 1px black;
+}
+
+p {
+  color: white;
+  text-decoration: underline orange;
+  text-shadow: 1px 1px black;
+  font-size: 1.3em;
+}
+
+input[type="date"],
+input[type="text"] {
+  background-color: white;
+  border-radius: 3px;
+  padding: 3px;
+  margin: 3px;
+  border-style: none;
+}
+
+input[type="submit"] {
+  display: block;
+  border-color: transparent;
+  border-radius: 9px;
+  background-color: white;
+  padding: 4px 10px 6px;
+  margin: 1em 0;
+}
+
+label {
+  color: white;
+  text-decoration: underline orange;
+  text-shadow: 1px 1px black;
+  font-size: 1.3em;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.delete-btn {
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  color: red;
+  background-image: url("delete.png");
+}
+
+button.delete-btn {
+  border: none;
+  padding: 0;
+}
