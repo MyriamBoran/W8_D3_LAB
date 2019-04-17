@@ -70,9 +70,12 @@ label {
   background-size: 20px;
   color: red;
   background-image: url("delete.png");
+  display: block;
+  margin-top: 1em;
 }
 
 button.delete-btn {
   border: none;
   padding: 0;
+  background-color: inherit;
 }

@@ -16,6 +16,15 @@ ItemView.prototype.render = function(activity) {
   location.textContent = activity.location;
   activityContainer.appendChild(location);
 
+  const checkboxLabel = document.createElement("label");
+  checkboxLabel.textContent = "Completed: ";
+  activityContainer.appendChild(checkboxLabel);
+
+  const completedCheckbox = document.createElement("input");
+  completedCheckbox.type = "checkbox";
+  completedCheckbox.id = "checkbox";
+  activityContainer.appendChild(completedCheckbox);
+
   const deleteButton = this.createDelete(activity._id);
   activityContainer.appendChild(deleteButton);
 
